@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8C803B27-19AA-47F9-9F28-18ADC2E61929"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D42EDC7D-E481-4AE9-8193-C63C6326F477"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TaylorSwift/Model/TaylorSwiftVideo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "prepopulateData"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "D42EDC7D-E481-4AE9-8193-C63C6326F477 - 1dcaeace83509137"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaylorSwift.prepopulateData.init() -&gt; TaylorSwift.prepopulateData"
+                  moduleName = "TaylorSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monica/MyFiles/IOS%20Project/TaylorSwift/TaylorSwift/Model/TaylorSwiftVideo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "D42EDC7D-E481-4AE9-8193-C63C6326F477 - 1dcaeace83509179"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TaylorSwift.prepopulateData.init() -&gt; TaylorSwift.prepopulateData"
+                  moduleName = "TaylorSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/monica/MyFiles/IOS%20Project/TaylorSwift/TaylorSwift/Model/TaylorSwiftVideo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD9668BC2B3747A900928D8A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9668BB2B3747A900928D8A /* DetailView.swift */; };
+		DD9668BF2B37496000928D8A /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = DD9668BE2B37496000928D8A /* YouTubePlayerKit */; };
+		DD9668C12B3759F200928D8A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9668C02B3759F200928D8A /* ProfileView.swift */; };
 		DDFDE3F32B3734DB0096A2A2 /* TaylorSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDE3F22B3734DB0096A2A2 /* TaylorSwiftApp.swift */; };
 		DDFDE3F52B3734DB0096A2A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDE3F42B3734DB0096A2A2 /* ContentView.swift */; };
 		DDFDE3F72B3734DE0096A2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFDE3F62B3734DE0096A2A2 /* Assets.xcassets */; };
 		DDFDE3FA2B3734DE0096A2A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFDE3F92B3734DE0096A2A2 /* Preview Assets.xcassets */; };
-		DDFDE4042B3734DE0096A2A2 /* TaylorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDE4032B3734DE0096A2A2 /* TaylorSwiftTests.swift */; };
-		DDFDE40E2B3734DE0096A2A2 /* TaylorSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDE40D2B3734DE0096A2A2 /* TaylorSwiftUITests.swift */; };
-		DDFDE4102B3734DE0096A2A2 /* TaylorSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDE40F2B3734DE0096A2A2 /* TaylorSwiftUITestsLaunchTests.swift */; };
+		DDFDE41E2B3735460096A2A2 /* TaylorSwiftVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFDE41D2B3735460096A2A2 /* TaylorSwiftVideo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD9668BB2B3747A900928D8A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DD9668C02B3759F200928D8A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		DDFDE3EF2B3734DB0096A2A2 /* TaylorSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaylorSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDFDE3F22B3734DB0096A2A2 /* TaylorSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftApp.swift; sourceTree = "<group>"; };
 		DDFDE3F42B3734DB0096A2A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DDFDE3F62B3734DE0096A2A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDFDE3F92B3734DE0096A2A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDFDE3FF2B3734DE0096A2A2 /* TaylorSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaylorSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDFDE4032B3734DE0096A2A2 /* TaylorSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftTests.swift; sourceTree = "<group>"; };
 		DDFDE4092B3734DE0096A2A2 /* TaylorSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaylorSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDFDE40D2B3734DE0096A2A2 /* TaylorSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftUITests.swift; sourceTree = "<group>"; };
-		DDFDE40F2B3734DE0096A2A2 /* TaylorSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDFDE41D2B3735460096A2A2 /* TaylorSwiftVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9668BF2B37496000928D8A /* YouTubePlayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				DDFDE3F12B3734DB0096A2A2 /* TaylorSwift */,
-				DDFDE4022B3734DE0096A2A2 /* TaylorSwiftTests */,
-				DDFDE40C2B3734DE0096A2A2 /* TaylorSwiftUITests */,
 				DDFDE3F02B3734DB0096A2A2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,10 +94,13 @@
 		DDFDE3F12B3734DB0096A2A2 /* TaylorSwift */ = {
 			isa = PBXGroup;
 			children = (
+				DDFDE41C2B3735240096A2A2 /* Model */,
 				DDFDE3F22B3734DB0096A2A2 /* TaylorSwiftApp.swift */,
 				DDFDE3F42B3734DB0096A2A2 /* ContentView.swift */,
 				DDFDE3F62B3734DE0096A2A2 /* Assets.xcassets */,
 				DDFDE3F82B3734DE0096A2A2 /* Preview Content */,
+				DD9668BB2B3747A900928D8A /* DetailView.swift */,
+				DD9668C02B3759F200928D8A /* ProfileView.swift */,
 			);
 			path = TaylorSwift;
 			sourceTree = "<group>";
@@ -110,21 +113,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DDFDE4022B3734DE0096A2A2 /* TaylorSwiftTests */ = {
+		DDFDE41C2B3735240096A2A2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DDFDE4032B3734DE0096A2A2 /* TaylorSwiftTests.swift */,
+				DDFDE41D2B3735460096A2A2 /* TaylorSwiftVideo.swift */,
 			);
-			path = TaylorSwiftTests;
-			sourceTree = "<group>";
-		};
-		DDFDE40C2B3734DE0096A2A2 /* TaylorSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DDFDE40D2B3734DE0096A2A2 /* TaylorSwiftUITests.swift */,
-				DDFDE40F2B3734DE0096A2A2 /* TaylorSwiftUITestsLaunchTests.swift */,
-			);
-			path = TaylorSwiftUITests;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +137,9 @@
 			dependencies = (
 			);
 			name = TaylorSwift;
+			packageProductDependencies = (
+				DD9668BE2B37496000928D8A /* YouTubePlayerKit */,
+			);
 			productName = TaylorSwift;
 			productReference = DDFDE3EF2B3734DB0096A2A2 /* TaylorSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +212,9 @@
 				Base,
 			);
 			mainGroup = DDFDE3E62B3734DB0096A2A2;
+			packageReferences = (
+				DD9668BD2B37496000928D8A /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			productRefGroup = DDFDE3F02B3734DB0096A2A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,6 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDFDE41E2B3735460096A2A2 /* TaylorSwiftVideo.swift in Sources */,
+				DD9668BC2B3747A900928D8A /* DetailView.swift in Sources */,
+				DD9668C12B3759F200928D8A /* ProfileView.swift in Sources */,
 				DDFDE3F52B3734DB0096A2A2 /* ContentView.swift in Sources */,
 				DDFDE3F32B3734DB0096A2A2 /* TaylorSwiftApp.swift in Sources */,
 			);
@@ -266,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDFDE4042B3734DE0096A2A2 /* TaylorSwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDFDE40E2B3734DE0096A2A2 /* TaylorSwiftUITests.swift in Sources */,
-				DDFDE4102B3734DE0096A2A2 /* TaylorSwiftUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD9668BD2B37496000928D8A /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD9668BE2B37496000928D8A /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD9668BD2B37496000928D8A /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DDFDE3E72B3734DB0096A2A2 /* Project object */;
 }

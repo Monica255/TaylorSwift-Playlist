@@ -1,24 +1,58 @@
-//
-//  ContentView.swift
-//  TaylorSwift
-//
-//  Created by Monica Sucianto on 23/12/23.
-//
-
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            ListView()
+                .tabItem {
+                    Label("Playlist", systemImage: "music.note")
+                }
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person.crop.circle.fill")
+                }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ListView: View {
+    var videos: [TaylorSwiftVideo] = prepopulateData.data
+
+    var body: some View {
+        NavigationView {
+            List(videos) { video in
+                TabelCell(video: video)
+            }
+            .navigationTitle("Playlist")
+        }
+    }
+}
+
+struct TabelCell: View {
+    var video: TaylorSwiftVideo
+
+    var body: some View {
+        NavigationLink(destination: DetailView(video: video)) {
+            HStack {
+                Image(video.image)
+                    .resizable()
+                    .scaledToFit()
+                    .cornerRadius(5)
+                    .frame(height: 60)
+
+                VStack(alignment: .leading) {
+                    Text(video.title)
+                        .fontWeight(.semibold)
+                    Text("Taylor Swift")
+                        .fontWeight(.thin)
+                }
+            }
+        }
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView()
+    }
 }
